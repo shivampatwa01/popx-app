@@ -22,7 +22,7 @@ function SignupPage() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100 lg:ml-[35vw] md:ml-[25vw]">
-      <div className="text-center lg:w-[30vw] p-[10px]">
+      <div className="text-center lg:w-[30vw] p-[10px] h-screen">
         <h1 className="text-2xl mb-4">Create your PopX account</h1>
         <form onSubmit={handleCreateAccount} className="space-y-4">
           <div className="text-left">
